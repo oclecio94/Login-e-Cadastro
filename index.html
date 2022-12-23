@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login e Cadastro</title>
+    <script
+      src="https://kit.fontawesome.com/7e3b80819a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="botoes">
+        <div class="corBotao"></div>
+        <button id="botaoEntrar">Entrar</button>
+        <button id="botaoCadastrar">Cadastrar</button>
+      </div>
+
+      <form action="" id="entrar">
+        <input type="text" placeholder="Email" required />
+        <i class="fas fa-envelope iEmail"></i>
+        <input type="password" placeholder="senha" required />
+        <i class="fas fa-lock iPassword"></i>
+
+        <button type="submit">Entrar</button>
+      </form>
+
+      <form action="" id="cadastrar">
+        <input type="text" placeholder="Email" required />
+        <i class="fas fa-envelope iEmail"></i>
+        <input type="password" placeholder="senha" required />
+        <i class="fas fa-lock iPassword"></i>
+        <input type="password" placeholder="repetir senha" required />
+        <i class="fas fa-lock iPassword2"></i>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
